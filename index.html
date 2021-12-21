@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | E-commerce product page</title>
+  </head>
+  <body>
+    <nav>
+      <div class="navbar">
+        <div class="menu-navbar">
+          <div class="ham-icon">
+            <div class="lines"></div>
+            <div class="lines"></div>
+            <div class="lines"></div>
+          </div>
+          <div class="menu">
+            <div class="menu-hidden">
+              <img
+                id="icon-close"
+                src="./images/icon-close.svg"
+                alt="icon-close"
+              />
+              <div class="menu-list">
+                <ul>
+                  <li>Collections</li>
+                  <li>Men</li>
+                  <li>Women</li>
+                  <li>About</li>
+                  <li>Contact</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <img src="./images/logo.svg" alt="" srcset="" />
+        </div>
+        <div class="avatar-navbar">
+          <div class="cart">
+            <div class="cart-count">3</div>
+            <img src="./images/icon-cart.svg" alt="cart-icon" />
+          </div>
+          <img src="./images/image-avatar.png" alt="avatar" class="avatar" />
+        </div>
+      </div>
+    </nav>
+    <div class="slide-container">
+      <img class="mySlides" src="./images/image-product-1.jpg" />
+      <img class="mySlides" src="./images/image-product-2.jpg" />
+      <img class="mySlides" src="./images/image-product-3.jpg" />
+      <img class="mySlides" src="./images/image-product-4.jpg" />
+
+      <button class="prev slide-btn" onclick="plusDivs(-1)">
+        <img src="./images/icon-previous.svg" alt="prev-btn" srcset="" />
+      </button>
+      <button class="next slide-btn" onclick="plusDivs(1)">
+        <img src="./images/icon-next.svg" alt="next-btn" srcset="" />
+      </button>
+    </div>
+
+    <!-- Sneaker Company 
+    <h3>Fall Limited Edition Sneakers </h3>
+    <p>These low-profile sneakers are
+      your perfect casual wear companion. Featuring a durable rubber outer sole,
+      they’ll withstand everything the weather can offer.</p>
+    $125.00 50% $250.00 0 -->
+    <button>
+      <img src="./images/icon-minus.svg" alt="minus" /> 0
+      <img src="./images/icon-plus.svg" alt="plus" />
+    </button>
+    <button>
+      <img src="./images/icon-cart.svg" alt="cart-icon" /> Add to cart
+    </button>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a
+        href="https://www.linkedin.com/in/nikhar-gupta-481b1a173/"
+        target="_blank"
+        >Nikhar Gupta</a
+      >.
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
